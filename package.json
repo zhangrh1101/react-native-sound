@@ -1,0 +1,48 @@
+{
+  "name": "@zhangrh1101/react-native-sound",
+  "version": "0.12.0",
+  "description": "React Native module for playing sound clips on iOS, Android, and Windows",
+  "main": "sound.js",
+  "typings": "index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhangrh1101/react-native-sound.git"
+  },
+  "keywords": [
+    "react-native",
+    "sound",
+    "audio",
+    "ios",
+    "android",
+    "windows"
+  ],
+  "author": "Zhen Wang <z@zmxv.com> (http://blog.zmxv.com)",
+  "license": "MIT",
+  "peerDependencies": {
+    "react-native": ">=0.8.0"
+  },
+  "scripts": {
+    "clang-format": "node scripts/clang-format.js",
+    "clang-format:check": "node scripts/clang-format.js --check"
+  },
+  "devDependencies": {
+    "glob": "^7.1.4",
+    "promisify-child-process": "^3.1.1"
+  },
+  "files": [
+    "**/*.@(js|ts)",
+    "*.podspec",
+    "android/build.gradle",
+    "android/src/**/*.@(java|xml)",
+    "RNSound.xcodeproj/project.pbxproj",
+    "RNSound.xcodeproj/project.xcworkspace/contents.xcworkspacedata",
+    "RNSound/**/*.@(h|m)",
+    "windows/RNSoundModule/**/*.@(sln|json|xml|csproj)",
+    "windows/RNSoundModule/**/*.cs",
+    "!scripts"
+  ],
+  "bugs": {
+    "url": "https://github.com/zmxv/react-native-sound/issues"
+  },
+  "homepage": "https://github.com/zhangrh1101/react-native-sound#readme"
+}
